@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="plunker">
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
+
+  <script src="script.js"></script>
+  <script src="templates.js"></script>
+</head>
+
+<body ng-controller="MainCtrl">
+  <foo ng-bind-html="qna1 | trusted">test</foo>
+</body>
+
+</html>
